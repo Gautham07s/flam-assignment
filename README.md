@@ -103,16 +103,11 @@ This reproduces the final fitted curve visually.
 
 ```
 flam-assignment/
-├── data/
-│   └── xy_data.csv
-├── src/
-│   └── fit_parametric_curve.py
-├── notebooks/
-│   └── fit_parametric_curve_colab.ipynb
-├── plots/
-│   └── fitted_curve.png
-├── README.md
-└── requirements.txt
+├── xy_data.csv
+├── fit_parametric_curve.py
+├── flam-assignment.ipynb
+├── fitted_curve.png
+└── README.md
 ```
 
 ---
@@ -123,7 +118,7 @@ flam-assignment/
 
 ```bash
 pip install numpy pandas scipy matplotlib
-python src/fit_parametric_curve.py
+python fit_parametric_curve.py
 ```
 
 ### 🔹 Google Colab
@@ -149,5 +144,5 @@ A plot comparing the **observed points (blue)** and **fitted curve (orange)** de
 *(`plots/fitted_curve.png` included in the repository)*
 
 ---
-**Author:** Gautham R
+**Author:** Gautham Ratiraju
 **Repository:** [https://github.com/Gautham07s/flam-assignment](https://github.com/Gautham07s/flam-assignment)
